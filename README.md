@@ -4,7 +4,7 @@ This program facilitates the creation of the classic [photo mosaic](http://en.wi
 
 More information on this program, see [genekogan.com/works/mosaic](http://www.genekogan.com/works/mosaic).
 
-![Example photo mosaic](http://www.genekogan.com/images/mosaic/mosaic_antigua_smaller.jpg)
+![Example photo mosaic](http://www.genekogan.com/images/mosaic/mosaic-antigua_smaller.jpg)
 
 ### Usage
 
@@ -16,4 +16,4 @@ More detailed usage instructions are found in the main program of the repository
 
 ### Credit
 
-Thanks to Ofir Pele for the [FastEMD][http://www.cs.huji.ac.il/~ofirpele/FastEMD/code/] implementation of [Earth Mover's distance](http://en.wikipedia.org/wiki/Earth_mover's_distance) which is used for determining image similarity.
+Thanks to Ofir Pele for the [FastEMD](http://www.cs.huji.ac.il/~ofirpele/FastEMD/code/) implementation of [Earth Mover's distance](http://en.wikipedia.org/wiki/Earth_mover's_distance) which is used for determining image similarity.
