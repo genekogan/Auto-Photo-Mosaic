@@ -2,7 +2,7 @@
 
 This program facilitates the creation of the classic [photo mosaic](http://en.wikipedia.org/wiki/Photographic_mosaic), a large composition of many small photographs stitched together in such a way as to resemble a single photograph.
 
-More information on this program, see [genekogan.com/works/mosaic](http://www.genekogan.com/works/mosaic).
+More information on this program, see [genekogan.com/works/mosaic](http://www.genekogan.com/works/mosaic.html).
 
 ![Example photo mosaic](http://www.genekogan.com/images/mosaic/mosaic-antigua_smaller.jpg)
 
