@@ -8,8 +8,8 @@ function score = analyzeTarget(targetpath, n1, n2)
 
 % setup path for important programs
 addpath('util');
-addpath('util\FastEMD')
-addpath('util\FastEMD\demo_FastEMD4');
+addpath('util/FastEMD')
+addpath('util/FastEMD/demo_FastEMD4');
 
 % select target image
 mainimg = double(imread(targetpath));

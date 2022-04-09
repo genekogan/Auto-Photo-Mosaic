@@ -13,7 +13,7 @@ function fileList = getAllFiles(dirName,extension,excludeDir)
   end
 
   dirData = dir(dirName);      %# Get the data for the current directory
-  dirFiles = dir([dirName '\*.' extension]); %# Get only files with extension
+  dirFiles = dir([dirName '/*.' extension]); %# Get only files with extension
   dirIndex = [dirData.isdir];  %# Find the index for directories
 
   if sum(strcmp(excludeDir,dirName))==0
