@@ -39,7 +39,7 @@
 
 
 % USER VARIABLES
-imagepath = '';  %  <-- path to your images goes here
+imagepath = '../../Downloads/TesteFotos/Teste/';  %  <-- path to your images goes here
 exclusions = {};
 
 
@@ -74,9 +74,9 @@ save myImageSetLite myImageSetLite;
 
 
 % USER VARIABLES
-targetpath = '';        % <-- path to the desired target for the mosaic
-n1 = 56;
-n2 = 56;
+targetpath = 'fougeresA6.png';        % <-- path to the desired target for the mosaic
+n1 = 30;
+n2 = 30;
 
 
 
@@ -116,9 +116,9 @@ score = analyzeTarget(targetpath,n1,n2);
 
 % USER VARIABES
 typemosaic = 'full';        % 'full' or 'prototype'
-s2 = 160;
-maxuses = 3;
-overlapPct = .15;
+s2 = 40;
+maxuses = 1; 
+overlapPct = .1;
 
 
 % render mosaic and return it along with original target image
@@ -146,7 +146,7 @@ overlapPct = .15;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % USER VARIABLES
-pctmainimg = .2;
+pctmainimg = .25;
 
 
 
